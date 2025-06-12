@@ -6,7 +6,6 @@ dotenv.config();
 // Validate required environment variables
 const requiredEnvVars = [
   "NODE_ENV",
-  "PORT",
   "DB_URL",
   "DB_NAME",
   "DB_USERNAME",
