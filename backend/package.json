@@ -13,8 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "@types/mongoose": "^5.11.96",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "helmet": "^8.1.0",
     "http-status": "^2.1.0",
     "joi": "^17.13.3",
     "logform": "^2.7.0",
@@ -26,6 +28,7 @@
     "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.3",
     "@types/mongodb": "^4.0.6",
